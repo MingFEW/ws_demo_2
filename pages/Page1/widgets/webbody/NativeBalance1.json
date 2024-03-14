@@ -3,6 +3,7 @@
     "symbol": "MATIC",
     "mobileBottomRow": 9,
     "widgetName": "NativeBalance1",
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
     "displayName": "NativeBalance",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -27,7 +28,8 @@
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
         {"key": "borderRadius"},
-        {"key": "wAddress"}
+        {"key": "wAddress"},
+        {"key": "isVisible"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -38,7 +40,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "rbh8k2f0ir",
     "minWidth": 450,
-    "isVisible": true,
+    "isVisible": "{{!Wallet1.wAddress ? true : false}}",
     "fontStyle": "REGULAR",
     "textColor": "#333333",
     "version": 1,

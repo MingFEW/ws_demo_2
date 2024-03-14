@@ -5,7 +5,10 @@
     "mobileBottomRow": 5,
     "widgetName": "Wallet1",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [{"key": "onHadWalletAddress"}],
+    "dynamicPropertyPathList": [
+        {"key": "onHadWalletAddress"},
+        {"key": "onDisconnected"}
+    ],
     "displayName": "Wallet Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "searchTags": [
@@ -21,12 +24,16 @@
     "mobileRightColumn": 17,
     "animateLoading": true,
     "parentColumnSpace": 10.23583984375,
-    "dynamicTriggerPathList": [{"key": "onHadWalletAddress"}],
+    "dynamicTriggerPathList": [
+        {"key": "onHadWalletAddress"},
+        {"key": "onDisconnected"}
+    ],
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
+    "onDisconnected": "{{\tNativeBalance1.setWAddress('')}}",
     "text": "Connect Wallet",
     "isDisabled": false,
     "key": "9gz90yrdxi",
