@@ -33,7 +33,7 @@
         {"key": "buttonColor"},
         {"key": "borderRadius"}
     ],
-    "onDisconnected": "{{\tNativeBalance1.setWAddress('')}}",
+    "onDisconnected": "{{\tNativeBalance1.setWAddress(\"\")}}",
     "text": "Connect Wallet",
     "isDisabled": false,
     "key": "9gz90yrdxi",

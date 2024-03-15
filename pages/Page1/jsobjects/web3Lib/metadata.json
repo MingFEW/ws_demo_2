@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "web3Lib",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "rpc",
+        "value": "\"https://rpc.ankr.com/polygon_mumbai\""
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page1_web3Lib",
+  "deleted": false,
+  "gitSyncId": "65f2d957218d811cea2ca966_65f3bcce218d811cea2ca9ad"
+}
