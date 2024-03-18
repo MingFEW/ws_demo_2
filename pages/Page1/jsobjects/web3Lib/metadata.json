@@ -9,7 +9,11 @@
     "variables": [
       {
         "name": "rpc",
-        "value": "\"https://rpc.ankr.com/polygon_mumbai\""
+        "value": "\"https://polygon-mumbai-bor-rpc.publicnode.com\""
+      },
+      {
+        "name": "abi",
+        "value": "[{\n  \"inputs\": [],\n  \"stateMutability\": \"nonpayable\",\n  \"type\": \"constructor\"\n}, {\n  \"anonymous\": false,\n  \"inputs\": [{\n    \"indexed\": true,\n    \"internalType\": \"address\",\n    \"name\": \"sender\",\n    \"type\": \"address\"\n  }, {\n    \"indexed\": false,\n    \"internalType\": \"uint256\",\n    \"name\": \"amount\",\n    \"type\": \"uint256\"\n  }, {\n    \"indexed\": false,\n    \"internalType\": \"string\",\n    \"name\": \"name\",\n    \"type\": \"string\"\n  }],\n  \"name\": \"ValuesSet\",\n  \"type\": \"event\"\n}, {\n  \"inputs\": [],\n  \"name\": \"getAmount\",\n  \"outputs\": [{\n    \"internalType\": \"uint256\",\n    \"name\": \"\",\n    \"type\": \"uint256\"\n  }],\n  \"stateMutability\": \"view\",\n  \"type\": \"function\"\n}, {\n  \"inputs\": [],\n  \"name\": \"getName\",\n  \"outputs\": [{\n    \"internalType\": \"string\",\n    \"name\": \"\",\n    \"type\": \"string\"\n  }],\n  \"stateMutability\": \"view\",\n  \"type\": \"function\"\n}, {\n  \"inputs\": [{\n    \"internalType\": \"uint256\",\n    \"name\": \"_amount\",\n    \"type\": \"uint256\"\n  }, {\n    \"internalType\": \"string\",\n    \"name\": \"_name\",\n    \"type\": \"string\"\n  }],\n  \"name\": \"setValues\",\n  \"outputs\": [],\n  \"stateMutability\": \"nonpayable\",\n  \"type\": \"function\"\n}]"
       }
     ],
     "userPermissions": []

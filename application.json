@@ -9,7 +9,11 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#E3DEFF",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "Web3_https://cdn.jsdelivr.net/npm/web3@4.6.0/dist/web3.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
