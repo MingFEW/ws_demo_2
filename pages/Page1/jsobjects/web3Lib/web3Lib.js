@@ -14,11 +14,11 @@ export default {
 		// if (!account) return;
 		console.log("account", account)
 		try {
-			const res = await contract.methods.setValues(23000000, "NEW M3").send({ from: "0x4de1D0f26E7C367C9523D6dD4D4f0e2322712412" })
+			await contract.methods.setValues(23000000, "NEW M3").send({ from: "0x4de1D0f26E7C367C9523D6dD4D4f0e2322712412" })
 																				.on('transactionHash', function(hash){
    																				console.log(hash)
 																				});
-			return res;
+			return 'done';
 		} catch(e) {
 			console.log(e);
 			return e;
