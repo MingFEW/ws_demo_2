@@ -13,7 +13,7 @@
         "label",
         "web3"
     ],
-    "bottomRow": 5,
+    "bottomRow": 6,
     "parentRowSpace": 10,
     "type": "WEB3_NATIVE_BALANCE_WIDGET",
     "hideCard": false,
@@ -37,7 +37,7 @@
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
     "key": "cbtlkg1f8o",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 63,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "rbh8k2f0ir",

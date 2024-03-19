@@ -26,32 +26,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_web3Lib.getAmount",
-              "name": "web3Lib.getAmount",
-              "collectionId": "Page1_web3Lib",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  const contractAddr = \"0xcAd1a06751Ad03FCDA2Ee4231b1d7223C972F34D\";\n  const web3 = new Web3(web3Lib.rpc);\n  const contract = new web3.eth.Contract(web3Lib.abi, contractAddr);\n  let res = '';\n  try {\n    res = await contract.methods.getAmount().call();\n  } catch (e) {\n    console.log(e);\n  }\n  return res.toString();\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_web3Lib.getName",
-              "name": "web3Lib.getName",
-              "collectionId": "Page1_web3Lib",
-              "confirmBeforeExecute": false,
-              "pluginType": "JS",
-              "jsonPathKeys": [
-                "async function () {\n  const contractAddr = \"0xcAd1a06751Ad03FCDA2Ee4231b1d7223C972F34D\";\n  const web3 = new Web3(web3Lib.rpc);\n  const contract = new web3.eth.Contract(web3Lib.abi, contractAddr);\n  let res = '';\n  try {\n    res = await contract.methods.getName().call();\n  } catch (e) {\n    console.log(e);\n  }\n  return res;\n}"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
