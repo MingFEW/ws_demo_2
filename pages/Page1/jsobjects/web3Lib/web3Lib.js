@@ -4,7 +4,7 @@ export default {
 	abi: [{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"sender","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"},{"indexed":false,"internalType":"string","name":"name","type":"string"}],"name":"ValuesSet","type":"event"},{"inputs":[],"name":"getAmount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getName","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_amount","type":"uint256"},{"internalType":"string","name":"_name","type":"string"}],"name":"setValues","outputs":[],"stateMutability":"nonpayable","type":"function"}],
 	abiStr: '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"sender","type":"address"},{"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"},{"indexed":false,"internalType":"string","name":"name","type":"string"}],"name":"ValuesSet","type":"event"},{"inputs":[],"name":"getAmount","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"getName","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"_amount","type":"uint256"},{"internalType":"string","name":"_name","type":"string"}],"name":"setValues","outputs":[],"stateMutability":"nonpayable","type":"function"}]',
  validateWriteSCForm() {
-	 if (!Input1.text) return false;
-	 if (!Input2.text) return false;
+	 if (!Input1.text) return true;
+	 if (!Input2.text) return true;
  }
 }
