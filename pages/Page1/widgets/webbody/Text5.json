@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Send these value to smart contract",
+    "text": "Send new values to smart contract",
     "key": "sfaf84sc3t",
     "isDeprecated": false,
     "rightColumn": 63,

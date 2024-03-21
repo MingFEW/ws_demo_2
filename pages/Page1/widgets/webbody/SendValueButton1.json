@@ -5,7 +5,7 @@
     "scArgs": "{{Input1.text}},{{Input2.text}}",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
     "topRow": 38,
-    "tooltip": "https://mumbai.polygonscan.com/",
+    "tooltip": "Input all values before submitting",
     "type": "WEB3_WRITE_SC_WIDGET",
     "animateLoading": true,
     "leftColumn": 1,
@@ -14,10 +14,11 @@
         {"key": "scAddress"},
         {"key": "scABI"},
         {"key": "rpcUrl"},
-        {"key": "scArgs"}
+        {"key": "scArgs"},
+        {"key": "isDisabled"}
     ],
     "text": "Send Transaction",
-    "isDisabled": false,
+    "isDisabled": "{{web3Lib.validateWriteSCForm()}}",
     "isDefaultClickDisabled": true,
     "scAddress": "{{web3Lib.smartcontractAddress}}",
     "usingMethod": "setValues",
@@ -33,6 +34,7 @@
     "mobileBottomRow": 33,
     "widgetName": "SendValueButton1",
     "buttonColor": "#be185d",
+    "dynamicPropertyPathList": [{"key": "isDisabled"}],
     "displayName": "SendValueButton",
     "searchTags": [
         "click",

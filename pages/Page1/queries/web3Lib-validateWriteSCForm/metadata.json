@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "writeSC",
-    "fullyQualifiedName": "web3Lib.writeSC",
+    "name": "validateWriteSCForm",
+    "fullyQualifiedName": "web3Lib.validateWriteSCForm",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -33,9 +33,9 @@
     "messages": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
-    "createdAt": "2024-03-19T09:19:04Z"
+    "createdAt": "2024-03-21T09:44:55Z"
   },
-  "id": "Page1_web3Lib.writeSC",
+  "id": "Page1_web3Lib.validateWriteSCForm",
   "deleted": false,
-  "gitSyncId": "65f2d957218d811cea2ca966_65f95888218d811cea2ca9fe"
+  "gitSyncId": "65f2d957218d811cea2ca966_65fc0197218d811cea2caa49"
 }
